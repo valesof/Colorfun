@@ -1,3 +1,41 @@
+
+
 body{
     background-image: url(fotojuego.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.caja-formulario h1{/*conf welcomei*/
+    color: rgb(0, 0, 0);/*color letrea welcome*/
+    letter-spacing: 2px;
+    flex-direction: column;/*acomodar en pagina, lado*/
+    font-size: 150px;
+    margin: 8px 0;/*separacion del welcome*/
+    display: flex;
+    align-items: center;
+
+    font-family: 'Kalam', cursive;
+ 
+
+
+    
+}
+
+.caja-formulario form input[type="submit"]{/*acceder*/
+
+    width: 200px;
+    height: 80px;
+    font-size: 40px;
+    font-family: 'Teko';
+    margin: 160px auto;
+    padding: 12px;
+    border-radius: 90px;
+    border: none;
+    background-color: rgb(245, 245, 245);/*fondo de acceder*/
+    color: rgb(54, 53, 53);/*color letra acceder*/
+    box-shadow: 2px 2px 8px rgb(138, 138, 138);
+    flex-direction: column;/*acomodar en pagina, lado*/
+    display: flex;
+    align-items: center;
 }
