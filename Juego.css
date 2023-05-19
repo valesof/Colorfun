@@ -1,7 +1,7 @@
 
 
 body{
-    background-image: url(fotojuego.avif);
+    background-image: url(foto2.avif);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -11,14 +11,14 @@ body{
     letter-spacing: 2px;
     flex-direction: column;/*acomodar en pagina, lado*/
     font-size: 150px;
-    margin: 8px 0;/*separacion del welcome*/
+    margin: 10px 0;/*separacion del welcome*/
     display: flex;
     align-items: center;
+   
+    font-family: 'Teko', sans-serif;
+ text-overflow: rgb(0, 0, 0);
 
-    font-family: 'Kalam', cursive;
- 
-
-
+text-decoration-color: black;
     
 }
 
@@ -39,3 +39,26 @@ body{
     display: flex;
     align-items: center;
 }
+
+.jugar{
+    width: 200px;
+    height: 80px;
+    font-size: 40px;
+    font-family: 'Teko';
+    margin: 20px auto;
+    padding: 2px;
+    border-radius: 90px;
+    border: none;
+    background-color: rgb(245, 245, 245);/*fondo de acceder*/
+    color: rgb(54, 53, 53);/*color letra acceder*/
+    box-shadow: 2px 2px 8px rgb(138, 138, 138);
+    flex-direction: column;/*acomodar en pagina, lado*/
+    display: flex;
+    align-items: center;
+}
+.caja-formulario a{
+    color:rgb(0, 0, 0) ;/*color letra olvido su contraseña*/
+        text-decoration:none ;/*se le quita la linea */
+    } 
+   
+    
