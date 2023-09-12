@@ -1,0 +1,50 @@
+*{
+    font-family: sans-serif;
+
+}
+.navbar {
+    background-color: #000000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    color: #fff;
+    padding: 10px;
+    z-index: 100;
+}
+.Inicio{
+    font-size: 13px;
+    font-family: 'Times New Roman', Times, cursive;
+    position: fixed;
+    top: 20px;
+    right: 170px;
+}
+
+.Conocenos{
+    font-size: 13px;
+    font-family: 'Times New Roman', Times, cursive;
+    position: absolute;
+    top: 20px;
+    right: 100px;
+}
+
+.Login{
+    font-size: 13px;
+    font-family: 'Times New Roman', Times, cursive;
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    
+}
+
+
+ h1{
+    color: rgb(0, 0, 0);/*color letrea */
+    
+    letter-spacing: 0.2px;
+    font-size: 36px;
+    flex-direction: column;
+    align-self: flex-end;
+    margin-right: 5% ;
+}
